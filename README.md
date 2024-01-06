@@ -8,7 +8,7 @@
 
 ## More notes
 > Download
-- git clone <repo name>
+- git clone https://github.com/trpl-A/Web_using_apis.git
 - download zip
 
 > Website
