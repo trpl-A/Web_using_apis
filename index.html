@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- started: 31.12.23 -->
+    <!-- updated: 06.01.23 -->
+    <!-- software engineer: trpl-A -->
+    <title>Using APIs</title>
+    <link rel="icon" type="icon" href="./styles/icons/fav2.png" />
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <!-- mine -->
+    <link rel="stylesheet" href="./styles/my-bootstrap.css" />
+
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/common-main.css" />
+    <link rel="stylesheet" href="./styles/common-my-classes.css" />
+
+    <link rel="stylesheet" href="./styles/style-index.css" />
+    <link rel="stylesheet" href="./styles/style-index-section.css" />
+    <link rel="stylesheet" href="./styles/style-index-split-section.css" />
+
+    <link rel="stylesheet" href="./styles/animate.css" />
+
+    <!-- api styles -->
+    <link rel="stylesheet" href="./styles/style-index-section-api1.css">
+    <link rel="stylesheet" href="./styles/style-index-section-api2.css">
+    <link rel="stylesheet" href="./styles/style-index-section-api3.css">
+    <link rel="stylesheet" href="./styles/style-index-section-api4.css">
+    <link rel="stylesheet" href="./styles/style-index-section-api5.css">
+    <link rel="stylesheet" href="./styles/style-index-section-api6.css">
+    <link rel="stylesheet" href="./styles/style-index-section-api7.css">
+
+
+    <!-- SCRIPTS -->
+    <!-- <script src="scripts/temp.js"></script> -->
+
+    <!-- API scripts -->
+    <!-- in order -->
+    <script src="scripts/api-cat.js"></script>
+    <script src="scripts/api-randomData.js"></script>
+    <script src="scripts/api-meal.js"></script>
+    <script src="scripts/api-country.js"></script>
+    <script src="scripts/api-bored.js"></script>
+
+    <script src="scripts/api-ipAddr.js"></script>
+    <script src="scripts/api-weather.js"></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="center full-bg-img">
+      <h1>Using APIs</h1>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- intro -->
+      <section id="intro" class="center">
+        <div>
+          <p>API stands for 
+            <a href="https://www.google.com/search?q=api&oq=api&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAtIBBzQ2OGowajmoAgCwAgA&sourceid=chrome&ie=UTF-8"
+              target="_blank"
+            >
+              <i>Application Programming Interface</i>
+            </a>
+          </p>
+
+          <p>
+            These are tools used by software engineers to enhance or create user
+            experiences
+          </p>
+
+          <!-- <p>Highlight text to activite the text-to-speech API</p> -->
+
+          <!-- <p>The following is a list of the different sections of this website</p> -->
+        </div>
+      </section>
+
+      <!-- api cards -->
+      <section id="api-cards">
+        <!-- row1 -->
+        <div class="center">
+          <div class="card-group">
+            <!-- card1 -->
+            <div class="card mb-3" style="max-width: 18rem">
+              <div class="card-header">API #1</div>
+
+              <div class="card-body">
+                <h3>Cat API</h3>
+
+                <p class="card-text">Generate a random image of a cat</p>
+              </div>
+
+              <div class="card-footer">
+                <div class="center">
+                  <a href="#api-1">Go to section</a>
+                </div>
+                <!-- <a href="#api-fake">Go to section</a> -->
+              </div>
+            </div>
+
+            <!-- card2 -->
+            <div class="card mb-3" style="max-width: 18rem">
+              <div class="card-header">API #2</div>
+
+              <div class="card-body">
+                <h3>Fake person API</h3>
+
+                <p class="card-text">
+                  Generate fake personal details and a random image of a face
+                </p>
+              </div>
+
+              <div class="card-footer">
+                <div class="center">
+                  <a href="#api-2">Go to section</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- card3 -->
+            <div class="card mb-3" style="max-width: 18rem">
+              <div class="card-header">API #3</div>
+
+              <div class="card-body">
+                <h3>Recipe API</h3>
+
+                <p class="card-text">Displays various meals, and recipes</p>
+              </div>
+
+              <div class="card-footer">
+                <div class="center">
+                  <a href="#api-3">Go to section</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- row2 -->
+        <div class="center">
+          <div class="card-group">
+            <!-- card1 -->
+            <div class="card mb-3" style="max-width: 18rem">
+              <div class="card-header">API #4</div>
+
+              <div class="card-body">
+                <h3>Country API</h3>
+
+                <p class="card-text">Get information about a certain country</p>
+              </div>
+
+              <div class="card-footer">
+                <div class="center">
+                  <a href="#api-4">Go to section</a>
+                </div>
+                <!-- <a href="#api-fake">Go to section</a> -->
+              </div>
+            </div>
+
+            <!-- card2 -->
+            <div class="card mb-3" style="max-width: 18rem">
+              <div class="card-header">API #5</div>
+
+              <div class="card-body">
+                <h3>Unbored API</h3>
+
+                <p class="card-text">
+                  Generate ideas to make you unbored
+                </p>
+              </div>
+
+              <div class="card-footer">
+                <div class="center">
+                  <a href="#api-5">Go to section</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- card3 -->
+            <div class="card mb-3" style="max-width: 18rem">
+              <div class="card-header">API #6</div>
+
+              <div class="card-body">
+                <h3>Geolocation API</h3>
+
+                <p class="card-text">
+                  Display geolocation information, and other information, based on an IPv4 address
+                </p>
+              </div>
+
+              <div class="card-footer">
+                <div class="center">
+                  <a href="#api-6">Go to section</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- row3 -->
+        <div class="center">
+          <div class="card-group">
+            <!-- card1 -->
+            <div class="card mb-3" style="max-width: 18rem">
+              <div class="card-header">API #7</div>
+
+              <div class="card-body">
+                <h3>Weather API</h3>
+
+                <p class="card-text">Get weather-information about a certain region/city</p>
+              </div>
+
+              <div class="card-footer">
+                <div class="center">
+                  <a href="#api-7">Go to section</a>
+                </div>
+                <!-- <a href="#api-fake">Go to section</a> -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- section1 -->
+      <div id="api-1" class="section-image center">
+        <h2>Cat images</h2>
+      </div>
+      <section id="api-cat" class="center">
+        <div class="center">
+          <div>
+            <div class="center">
+              <!-- <button id="btn1" type="button" onclick="testing(), showImage()"> -->
+              <button id="btn1" type="button" onclick="mainCat()">
+                Get an image of a cat
+              </button>
+            </div>
+
+            <div id="display-image" class="center">
+              <img src="./styles/images/img.webp" alt="image of a cat" />
+            </div>
+
+            <div>
+              <p id="display-url"></p>
+              <p id="raw-url" onclick="gotoUrl()"></p>
+            </div>
+
+            <div class="center">
+              <a class="go-to-top-btn" href="#api-cards"> Back to top</a>
+              <!-- <a class="go-to-top-btn" href="#intro"> Back to top</a> -->
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- section2 -->
+      <div id="api-2" class="section-image center">
+        <h2>Fake Person</h2>
+      </div>
+      <section id="api-fake" class="split-section">
+        <div class="row">
+          <div class="half half-outer1 center col-sm-12 col-lg-6">
+              <button id="btn-fake" type="button" onclick="displayDetails()">
+                Get details
+              </button>
+          </div>
+
+          <div class="half-outer2 half col-sm-12 col-lg-6">
+              <div class="center">
+                <div id="output0"></div>
+              </div>
+
+              <div class="center">
+                <img id="random-face" src="" alt="image of a face"/>
+              </div>
+
+              <div class="center">
+                <a class="go-to-top-btn" href="#api-cards"> Back to top</a>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section3 -->
+      <div id="api-3" class="section-image center">
+        <h2>Recipes</h2>
+      </div>
+      <!-- maybe use cols instead of cards -->
+
+      <section id="api-meal">
+        <div>
+          <div class="center">
+            <div class="card-group">
+              <!-- card1 -->
+              <div class="card mb-3" style="max-width: 18rem">
+                <div class="card-header">Random recipe</div>
+
+                <div class="card-body center">
+                  <div>
+                    <p class="card-text">Generate a random recipe</p>
+                  </div>
+                </div>
+
+                <div class="card-footer">
+                  <div class="center">
+                    <button id="btn3" type="button" onclick="randomMeal()">
+                      Generate meal
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card2 -->
+              <div class="card mb-3" style="max-width: 18rem">
+                <div class="card-header">First letter</div>
+
+                <div class="card-body center">
+                  <div>
+                    <p class="card-text">
+                      Search for all meals that start with a specific letter
+                    </p>
+  
+                    <input id="by-letter" placeholder="letter" />
+                  </div>
+                </div>
+
+                <div class="card-footer">
+                  <div class="center">
+                      <button type="button" onclick="getRecipes()">Get recipes</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card3 -->
+              <div class="card mb-3" style="max-width: 18rem">
+                <div class="card-header">ID</div>
+
+                <div class="card-body center">
+                  <div>
+                    <p class="card-text">Search by numeric ID</p>
+
+                    <input
+                    id="by-id"
+                    type="number"
+                    placeholder="ID"
+                  />
+                  </div>
+                </div>
+
+                <div class="card-footer">
+                  <div class="center">
+                    <button id="" type="button" onclick="getRecipeDetails()">
+                        Search
+                      </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- output -->
+          <div class="center">
+            <div class="output" id="output1">
+              <p></p>
+            </div>
+          </div>
+
+          <div class="center">
+            <a class="go-to-top-btn" href="#api-cards"> Back to top</a>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- section4 -->
+      <div id="api-4" class="section-image center">
+        <h2>Country details</h2>
+      </div>
+      <section id="api-country" class="split-section">
+          <div class="row">
+            <div class="half half-outer1 col-sm-12 col-lg-6" class="">
+                <div id="guide">
+                  <h3>Guide</h3>
+
+                  <p>1. Display all the names of the countries</p>
+                  <p>2. Type the name of the country and press search to view the country's details</p>
+        
+                  <div class="buttons">
+                    <div class="center">
+                      <button type="button" onclick="getAll()">Show all countries</button>
+                    </div>
+          
+                    <div class="center">
+                      <!-- maybe use a dropdown? -->
+                      <input type="text" id="userCountry" place="Name of the country"/>
+                    </div>
+
+                    <div class="center">
+                      <button type="button" onclick="getCountryInfo()">
+                        Search for country
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="center">
+                    <a class="go-to-top-btn" href="#api-cards"> Back to top</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="half half-outer2 center col-sm-12 col-lg-6">
+              <div class="" id="output2"></div>
+            </div>
+
+          </div>
+      </section>
+
+
+      <!-- section5 -->
+      <div id="api-5" class="section-image center">
+        <h2>I'm bored</h2>
+      </div>
+      <section id="api-bored">
+      <!-- <section id="api-bored" class="center"> -->
+        <div>
+          <div class="center">
+            <button type="button" onclick="getActivity()">unbored me</button>
+          </div>
+
+          <div class="center">
+            <div class="output" id="output3"></div>
+          </div>
+
+          <div class="center">
+            <a class="go-to-top-btn" href="#api-cards"> Back to top</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- section6 -->
+      <div id="api-6" class="section-image center">
+        <h2>Geo location</h2>
+      </div>
+      <section id="api-ip">
+        <div>
+          <div class="center">
+            <input type="text" id="ipv4" placeholder="Enter an IPv4 Address" />
+          </div>
+
+          <div class="center">
+            <button type="button" onclick="getLocation()">Get Data</button>
+          </div>
+
+          <div class="center">
+            <div class="output" id="output4"></div>
+          </div>
+
+          <div class="center">
+            <a class="go-to-top-btn" href="#api-cards"> Back to top</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- section7 -->
+      <div id="api-7" class="section-image center">
+        <h2>Weather</h2>
+      </div>
+      <section id="api-weather" class="split-section">
+        <div class="row">
+          <div class="half half-outer1 center col-sm-12 col-lg-6">
+            <div>
+              <div>
+                <p>
+                  Temperature is measured in degrees Celsius (°C)
+                </p>
+
+                <p>
+                  Pressure is  measured in hectoPascals (hPa), also called millibars. 
+                </p>
+
+                <p>
+                  Wind speed is measured in metres per second.
+                </p>
+
+                <p>
+                  Humidity is measured in grams per cubic meter, g/m³ (grams of water vapor per cubic meter volume of air)
+                </p>
+              </div>
+              
+              <div class="center">
+                <input
+                  id="city-name-input"
+                  type="text"
+                  placeholder="Enter the name of a city"
+                />
+              </div>
+    
+              <div class="center">
+                <button type="button" onclick="getWeather()">Search</button>
+              </div>
+
+              <div class="center">
+                <a class="go-to-top-btn" href="#api-cards"> Back to top</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="half half-outer2 center col-sm-12 col-lg-6">
+            <div class="">
+                <div class="" id="output6"></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-img center">
+        <a href="https://github.com/trpl-a" target="_blank">
+          <img
+            id="github-icon"
+            src="./styles/icons/github-mark-white.png"
+            alt="github svg | scalable vector graphic, image"
+            title="Github page"
+          />
+        </a>
+      </div>
+      <!-- <img id="github-icon" src="./styles/icons/github.svg" alt="github svg | scalable vector graphic, image"> -->
+
+      <p id="name">trpl-A</p>
+
+      <div class="footer-img center">
+        <img id="for-freedom" src="./styles/images/freedom.png" alt="free Palestine" title="FREE PALESTINE">
+      </div>
+    </footer>
+
+
+    <!-- SCRIPT -->
+    <!-- tts -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=EHFauR8k"></script>
+    <!-- software engineer: trpl-A -->
+  </body>
+</html>

@@ -1,0 +1,64 @@
+/* API 3 */
+/* meal */
+
+/* cards */
+#api-meal .card:first-child .card-text{
+    font-size:30px; 
+    font-weight: 100;
+    line-height: 2.5rem;
+}
+
+#api-meal .card-body{
+    text-align: left;
+    color:white;
+    background-color: rgb(139, 0, 0);
+}
+#api-meal .card-header{
+    margin-top:10px; 
+    padding:20px; 
+
+    color:white;
+    background-color: rgb(93, 0, 0);
+    font-family: 'Calligraffitti', cursive;
+    font-size:30px;
+    border:none;  
+}
+/* ----------------------- */
+
+#api-meal input{
+    color:yellow; 
+    width:100%;
+}
+
+#api-meal input::placeholder{
+    color:yellow; 
+    text-align: center;
+}
+
+#api-meal button{
+    border:1px solid black;
+}
+#api-meal button:hover,
+#api-mea button:focus{
+    color:white;
+    background-color: rgb(139, 0, 0);
+}
+/* ----------------------- */
+
+/* output */
+#output1{
+    background-color: black;
+    color:coral; 
+}
+#output1:hover{
+    background-color: rgb(48, 37, 1);
+    color:rgb(217, 224, 235); 
+}
+
+#output1 p{
+    text-align: left;
+    font-size:20px;
+    font-weight:100; 
+    line-height: 1.7rem;
+}
+/* ----------------------- */

@@ -1,0 +1,60 @@
+/* 
+for sections that are split into 2 parts
+*/
+
+.split-section{
+    padding:0;
+}
+
+.split-section .row{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+/* ----------------------- */
+
+/* HALVES */
+.half{
+    padding:10px; 
+    min-height:100vh; 
+}
+
+/* left half */
+.half-outer1{
+    background-color: whitesmoke;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.half-outer1 button{
+    background-color: black;
+    color:white;
+    /* border-radius: 20px; */
+    /* border:1px solid white; */
+    /* box-shadow: 1px 1px 20px white; */
+}
+.half-outer1 button:hover{
+    background-color: white;
+    color:orange; 
+    border:1px solid white;
+    box-shadow: 1px 1px 20px white;
+}
+
+/* right half */
+.half-outer2{
+    background-color: black;
+    color:white; 
+
+}
+
+/* .half-outer2 .half{
+    background-color: black;
+    color:white; 
+    padding:20px; 
+    padding-bottom:50px; 
+} */
+
+
+
+/* ======================= */

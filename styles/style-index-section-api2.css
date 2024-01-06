@@ -1,0 +1,22 @@
+/* API 2 */
+/* fake personal details */
+
+#api-fake .half-outer1{
+    background-image: url(./images/bgw.webp);
+    /* background-color: rgb(250, 235, 100); */
+    background-blend-mode: color-burn;
+    background-color: rgb(255, 253, 231);
+
+
+    /* background-color: rgb(172, 113, 4); */
+    /* background-blend-mode: color-dodge; */
+}
+
+#api-fake #output0{
+    padding:30px 20px; 
+}
+
+#api-fake #random-face{
+    display: none;
+}
+/* --------------------- */

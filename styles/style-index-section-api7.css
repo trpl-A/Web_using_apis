@@ -1,0 +1,21 @@
+/* API 7 */
+/* weather */
+#api-weather .half-outer1{
+    background-color: rgb(104, 94, 0);
+    color:white; 
+}
+
+#api-weather #city-name-input{
+    color:yellow; 
+}
+
+
+#api-weather .half-outer2{
+    /* background-color: rgb(104, 94, 0); */
+    color:white; 
+
+}
+#api-weather #output6{
+    width:100%; 
+}
+/* ----------------------- */

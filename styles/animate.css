@@ -1,0 +1,65 @@
+@keyframes fx {
+    from{
+        transform: scale(.4);
+    }
+
+    to{
+        transform:scale(1);
+    }
+}
+
+/* 
+#display-image img{
+    animation: fx 5s ease; 
+} */
+
+
+/* for fake api section */
+@keyframes colorFade {
+    0%{
+        background-color: orange;
+    }
+
+
+    30%{
+        background-color: aqua;
+    }
+
+    60%{
+        background-color: rgb(100, 0, 63);
+    }
+
+    100%{
+        background-color: orange;
+    }
+}
+
+/* .half-outer1{
+    animation: colorFade 30s ease infinite;
+    /* animation: colorFade 10s ease infinite; *
+} */
+
+
+@keyframes btnAnimation {
+    0%{
+        box-shadow: 1px 1px 10px yellow;
+    }
+    
+ 
+    30%{
+        box-shadow: 1px 1px 10px orange;
+    }
+
+    60%{
+        box-shadow: 1px 1px 10px aqua;
+    }
+
+    100%{
+        box-shadow: 1px 1px 10px yellow;
+    }
+}
+
+
+.half-outer1 button{
+    animation: btnAnimation ease 20s ease;
+}

@@ -1,0 +1,22 @@
+/* API 1 */
+/* cat */
+
+#api-cat{
+    background: radial-gradient(rgb(57, 57, 1) ,orangered);
+    color:white; 
+    padding:0; 
+}
+
+#api-cat p{
+    text-align: center;
+}
+
+#api-cat button{
+    margin-bottom:30px; 
+}
+
+#raw-url{
+    text-decoration: underline;
+    color:yellow;
+}
+/* ----------------------- */

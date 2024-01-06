@@ -1,0 +1,40 @@
+/* MY-CLASSES */
+/* ======================================= */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-bg-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+
+    z-index: 100;
+}
+/* --------------------------- */
+
+/* icons */
+/* mainly for the footer or navbar */
+.icons {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+
+    transition: 400ms ease;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+}
+
+/* ======================================= */
