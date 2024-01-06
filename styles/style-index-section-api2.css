@@ -2,6 +2,7 @@
 /* fake personal details */
 
 #api-fake .half-outer1{
+    background-position: left;
     background-image: url(./images/bgw.webp);
     /* background-color: rgb(250, 235, 100); */
     background-blend-mode: color-burn;
@@ -13,6 +14,8 @@
 }
 
 #api-fake #output0{
+    /* overflow-wrap: break-word; */
+    word-wrap: break-word;
     padding:30px 20px; 
 }
 

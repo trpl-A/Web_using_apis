@@ -1,3 +1,26 @@
 /* API 6 */
 /* IP info */
+
+#api-ip #ipv4{
+    border-bottom:2px solid black;
+    text-align: center;
+}
+#api-ip #ipv4::placeholder{
+    text-align: center;
+}
+/* ----------------------- */
+
+#api-ip #output4{
+    margin:20px 10px;
+}
+
+#api-ip #output4:hover{
+    background-color: black;
+    color:white; 
+    padding:20px;
+    padding-bottom:50px; 
+
+    /* border-radius:none; 
+    box-shadow: none; */
+}
 /* ----------------------- */

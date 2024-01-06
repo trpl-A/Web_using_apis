@@ -40,6 +40,7 @@ main img:hover{
 /* FOOTER */
 footer{
     min-height:200px; 
+    border-top: 2px solid white;
 }
 /* ----------------------- */
 

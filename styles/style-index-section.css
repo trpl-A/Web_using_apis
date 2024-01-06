@@ -17,19 +17,24 @@ section{
 #intro{
     text-align: center;
     min-height:50vh;
-    /* min-height:50vh; */
+    background-color: black;
+    color:white; 
 
-    /* background-color: black; */
-    /* color:white;  */
-    /* background-color: salmon; */
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    /* color:black;  */
+}
 
-    color:black; 
+#intro div{
+    padding:10px; 
+}
+
+#intro span{
+    color:red; 
 }
 
 #intro a{
-    /* color:green;  */
-    color:darkblue; 
+    color:green; 
+    /* color:darkblue;  */
     text-decoration: underline;
 }
 #intro a:hover{
@@ -81,7 +86,7 @@ section{
 
 /* output blocks */
 .output{
-    word-wrap: normal;
+    word-wrap: break-word;
 
     position: relative;
     width:90vw;

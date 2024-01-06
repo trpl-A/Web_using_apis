@@ -1,6 +1,7 @@
 /* API 4 */
 /* country */
 
+
 #api-country .half-outer1{
     background-color:rgb(222, 222, 37);
     background-image: url(./images/w3.webp);
@@ -15,13 +16,14 @@
 
 #api-country #userCountry{
     margin-top:20px;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 
 #api-country .half-outer2{
     background-color: rgb(137, 4, 4);
     color:rgb(222, 222, 37);
+    overflow-wrap: break-word;
 }
 
 #output2{

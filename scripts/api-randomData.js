@@ -31,7 +31,11 @@ async function displayDetails(){
     let output = document.getElementById("output0")
 
     output.innerHTML = ""
-    output.innerHTML = 
+    output.innerHTML = "fetching data..."
+
+    setTimeout(() => {
+        output.innerHTML = ""
+        output.innerHTML = 
         "<br> - Username: " + data["username"] + 
         "<br> - Name: " + data["first_name"] + 
         "<br> - Surname: " + data["last_name"] + 
@@ -43,6 +47,20 @@ async function displayDetails(){
         "<br> - Employment: " + data["employment"]["title"] + 
         "<br> - Blood group: " + data1["group"] + 
         "<br>"
+    }, "2000")
+    
+    // output.innerHTML = 
+    //     "<br> - Username: " + data["username"] + 
+    //     "<br> - Name: " + data["first_name"] + 
+    //     "<br> - Surname: " + data["last_name"] + 
+    //     "<br> - Password: " + data["password"] + 
+    //     "<br> - Emall: " + data["email"] + 
+    //     "<br> - Avatar: " + data["avatar"] + 
+    //     "<br> - Phone number: " + data["phone_number"] + 
+    //     "<br> - DOB: " + data["date_of_birth"] +  
+    //     "<br> - Employment: " + data["employment"]["title"] + 
+    //     "<br> - Blood group: " + data1["group"] + 
+    //     "<br>"
 
     // maybe add?
     console.log("address", data["address"])

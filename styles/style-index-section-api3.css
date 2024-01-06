@@ -3,9 +3,10 @@
 
 /* cards */
 #api-meal .card:first-child .card-text{
-    font-size:30px; 
+    /* font-size:30px; 
     font-weight: 100;
-    line-height: 2.5rem;
+    line-height: 2.5rem; */
+    padding:40px 10px; 
 }
 
 #api-meal .card-body{
@@ -14,7 +15,7 @@
     background-color: rgb(139, 0, 0);
 }
 #api-meal .card-header{
-    margin-top:10px; 
+    /* margin-top:10px;  */
     padding:20px; 
 
     color:white;
@@ -23,11 +24,20 @@
     font-size:30px;
     border:none;  
 }
+#api-meal .card-footer a{
+    padding:0;
+    border:none;    
+}
+#api-meal .card-footer a:hover{
+    background-color: transparent;
+    color:transparent;
+}
 /* ----------------------- */
 
 #api-meal input{
     color:yellow; 
     width:100%;
+    text-align: center;
 }
 
 #api-meal input::placeholder{

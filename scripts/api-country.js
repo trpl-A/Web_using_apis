@@ -26,7 +26,7 @@ async function getAll(){
     let output = document.querySelector("#output2")
     output.innerHTML = ""
 
-    output.innerHTML += "<br>Number of countries: " + data.length + "<br><br>"
+    output.innerHTML += "Number of countries: " + data.length + "<br><br>"
     listOfCounties.sort().forEach(country => {
         // console.log(country)
         output.innerHTML += "- " + country + "<br>"
