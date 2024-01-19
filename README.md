@@ -1,9 +1,9 @@
 # Program:  Using APIs Website
 - Desc:       A website that makes use of various free APIs
 - Started:    31.12.23
-- Updated:    06.01.24
-- Developer:  /ttrpl-A
-- Status:     /tWork-in-progress
+- Updated:    19.01.24
+- Developer:  trpl-A
+- Status:     COMPLETE
 ---
 
 ## More notes
@@ -12,7 +12,7 @@
 - download zip
 
 > Website
-- trpl-a.github.io/Web_using_apis
+- https://trpl-a.github.io/Web_using_apis
 ---
 
 ## APIs used

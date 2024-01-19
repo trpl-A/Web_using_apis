@@ -81,14 +81,7 @@ async function getCountryInfo(){
         <br> - Independent: ${data[0]["independent"]}
         <br> - UN Member: ${data[0]["unMember"]}
         <br> - Capital: ${data[0]["capital"]}
-        <br> - Capital info: ${data[0]["capitalInfo"]["latlng"]} 
-
-        <br>        
-        <br> - Independent: ${data[0]["independent"]}
-        <br> - UN Member: ${data[0]["unMember"]}
-        <br> - Capital: ${data[0]["capital"]}
         <br> - Capital location: (${data[0]["capitalInfo"]["latlng"]})
-        <br> - Region: ${data[0]["region"]} 
 
         <br>
         <br> * go to map: ${(data)[0]["maps"]["googleMaps"]}
